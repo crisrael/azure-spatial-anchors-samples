@@ -150,7 +150,7 @@ namespace Microsoft.Azure.SpatialAnchors.Unity.Examples
             Debug.Log("Anchor created, yay!");
 
             currentAnchorId = currentCloudAnchor.Identifier;
-
+            //TODO(Shivan): Capture currentAnchorId and send to AWS
             currentAppState = AppState.DemoStepStopSession;
         }
 
